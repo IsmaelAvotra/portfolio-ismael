@@ -1,0 +1,163 @@
+.contact {
+  padding: 1rem 3rem;
+  margin-bottom: 8rem;
+}
+
+.contact-me .content {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.contact-me .content .left {
+  font-family: var(--font-sans);
+  flex: 1;
+}
+
+.contact-me .content .left h3 {
+  margin-bottom: 0.5rem;
+}
+
+.contact-me .content .left .text {
+  color: var(--text-clr);
+  margin-bottom: 2rem;
+}
+
+.contact-me .content .left .div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.content .left .div svg {
+  font-size: 1.5rem;
+  color: var(--font-clr);
+}
+
+.content .left .div p {
+  color: var(--text-clr);
+}
+
+.contact-me .content .right {
+  padding: 1rem;
+  flex: 1;
+}
+
+.contact-me .content .right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me .right input {
+  padding: 0.6rem 2rem 0.6rem 0.6rem;
+  border-radius: 5px;
+  border: 1px solid var(--font-clr);
+  margin-bottom: 1rem;
+  width: 70%;
+  background-color: var(--bg-clr);
+  color: #fff;
+}
+
+.contact-me .right input::placeholder,
+.contact-me .right textarea::placeholder {
+  font-size: 0.8rem;
+}
+
+.contact-me .right input:focus,
+.contact-me .right textarea:focus {
+  outline: none;
+}
+
+.contact-me .right textarea {
+  background-color: var(--bg-clr);
+  padding: 1rem 2rem 0.5rem 0.4rem;
+  border-radius: 5px;
+  border: 1px solid var(--font-clr);
+  margin-bottom: 1rem;
+  resize: none;
+  width: 80%;
+  color: #fff;
+}
+
+.contact-me .right button {
+  background-color: var(--bg-clr);
+  padding: 0.6rem 2rem;
+  border: 0.6px solid var(--second-clr);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  color: var(--font-clr);
+  transition: 0.4s;
+  cursor: pointer;
+  width: 7rem;
+}
+
+.contact-me .right button:hover {
+  background-color: var(--second-clr);
+  color: #09182e;
+  border: 1px solid var(--font-clr);
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-me .right input {
+    width: 80%;
+  }
+  .contact-me .right textarea {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contact {
+    padding: 1rem 2rem;
+  }
+  .contact-me .content {
+    gap: 1rem;
+  }
+  .contact-me .right input {
+    width: 90%;
+  }
+  .contact-me .right textarea {
+    width: 95%;
+  }
+  .contact-me .content .left .text {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    padding: 1rem;
+  }
+  .contact-me .content {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .content .left .div svg {
+    font-size: 1.3rem;
+  }
+  .contact-me .content .left .text {
+    font-size: 0.8rem;
+  }
+  .content .left .div p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content .left .div svg {
+    font-size: 1.2rem;
+  }
+  .contact-me .right button {
+    font-size: 0.8rem;
+    padding: 0.3rem 1.2rem;
+  }
+  .contact-me .right input {
+    width: 105%;
+  }
+  .contact-me .right textarea {
+    width: 110%;
+  }
+}

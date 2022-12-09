@@ -1,0 +1,179 @@
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  min-height: 95vh;
+  position: relative;
+}
+
+.banner .text-h1 {
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.banner .text-h1 .text1-h1 span {
+  color: var(--second-clr);
+}
+
+.banner span {
+  font-family: 'Lora', serif;
+  font-size: 4.5rem;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--font-clr);
+}
+
+.banner span:hover {
+  color: var(--second-clr);
+}
+
+.banner .button {
+  margin-top: 3rem;
+}
+
+.banner .button button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border: 1px solid var(--second-clr);
+  background-color: transparent;
+  border-radius: 0.25rem;
+  transition: 0.4s;
+}
+
+.banner .button button:hover {
+  background-color: var(--second-clr);
+  border: 1px solid var(--font-clr);
+}
+
+.button button a {
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--font-clr);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  transition: 0.4s;
+}
+
+.button button:hover a {
+  color: #09182e;
+}
+
+/* =====socials========== */
+
+.banner .socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  right: 3rem;
+  bottom: 5rem;
+  position: fixed;
+}
+
+.banner .socials::after {
+  content: '';
+  width: 1px;
+  height: 5rem;
+  background-color: var(--second-clr);
+}
+
+.banner .socials svg {
+  font-size: 1.4rem;
+  color: var(--font-clr);
+  transition: 0.4s;
+  transform: scale(1);
+}
+
+.banner .socials svg:hover {
+  color: var(--second-clr);
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1025px) {
+  .banner {
+    height: 65vh;
+  }
+  .banner .text-h1 {
+    margin-left: 3rem;
+  }
+  .banner span {
+    font-size: 4.2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .banner {
+    height: 95vh;
+  }
+  .banner .text-h1 {
+    margin-left: 2rem;
+  }
+  .banner span {
+    font-size: 3.9rem;
+  }
+  .banner .socials {
+    right: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner span {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .banner {
+    padding: 0 1rem;
+    height: 80vh;
+  }
+  .banner .text-h1 {
+    margin-left: 1rem;
+  }
+  .banner span {
+    font-size: 2.6rem;
+  }
+
+  .banner .button {
+    margin-top: 2rem;
+  }
+
+  .banner .button button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .button button a {
+    font-size: 0.8rem;
+  }
+
+  .banner .socials {
+    right: 1rem;
+    bottom: 1rem;
+  }
+  .banner .socials svg {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .banner {
+    padding: 0 1rem;
+    padding-left: 0.5rem;
+    height: 70vh;
+  }
+  .banner .text-h1 {
+    margin-left: 0rem;
+  }
+  .banner span {
+    font-size: 1.85rem;
+  }
+  .banner .socials {
+    bottom: 3rem;
+    right: 0.5rem;
+  }
+}
