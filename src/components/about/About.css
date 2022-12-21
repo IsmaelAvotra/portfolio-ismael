@@ -1,6 +1,6 @@
 .about {
   padding: 1rem 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   height: 50rem;
 }
 
@@ -23,7 +23,7 @@
 
 .description .left p {
   color: var(--text-clr);
-  line-height: 1.3rem;
+  line-height: 1.4rem;
   margin-bottom: 1rem;
 }
 
@@ -50,17 +50,6 @@
   opacity: 0.9;
 }
 
-/* ==========why i chose========== */
-/* .choice {
-  margin-top: 2rem;
-  padding: 0 2rem;
-}
-
-.choice p {
-  color: var(--text-clr);
-  padding-right: 1rem;
-} */
-
 /* ==========media queries================== */
 
 @media screen and (max-width: 1300px) {
@@ -84,6 +73,9 @@
   }
 }
 @media screen and (max-width: 850px) {
+  .about {
+    padding: 1rem;
+  }
   .description .left p {
     padding-right: 2rem;
   }
@@ -94,7 +86,7 @@
 
 @media screen and (max-width: 550px) {
   .about {
-    padding: 1rem;
+    padding: 1rem 0.5rem;
   }
   .about .right img {
     width: 26rem;

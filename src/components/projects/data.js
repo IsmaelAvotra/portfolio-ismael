@@ -6,9 +6,19 @@ import watch from '../../assets/watch.png'
 import home from '../../assets/home.png'
 import bose from '../../assets/bose.png'
 import cocktails from '../../assets/cocktails.png'
-import grocery from '../../assets/grocery.png'
+import realestate from '../../assets/realestate.png'
 
 export const projects = [
+  {
+    id: 9,
+    image: realestate,
+    name: 'New Home',
+    technos: 'NEXT JS,API REST',
+    desription:
+      'This website allows users to search for and browse listings of properties for sale or rent. It typically includes information about the properties, such as descriptions, photos, and pricing',
+    github: 'https://github.com/IsmaelAvotra/real-estate-app',
+    demo: 'https://real-estate-app-six-gold.vercel.app/',
+  },
   {
     id: 1,
     image: anime,
@@ -91,15 +101,5 @@ export const projects = [
       "A website where you can search for all the cocktails. You can see how to prepare it and what the ingredients are.I used the DB cocktails api. I did the design myself and it's responsive.",
     github: 'https://github.com/IsmaelAvotra/cocktails',
     demo: 'https://cocktails-find.netlify.app/',
-  },
-  {
-    id: 9,
-    image: grocery,
-    name: 'Grocery Bud',
-    technos: 'Vanilla JS',
-    desription:
-      'A small application where you can add, delete and modify products. It uses local storage.This is a good practice of CRUD with vanilla Js',
-    github: 'https://github.com/IsmaelAvotra/grocery-bud',
-    demo: 'https://groceri-website.netlify.app/',
   },
 ]

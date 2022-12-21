@@ -69,12 +69,6 @@ const navbar = () => {
             )
           })}
         </ol>
-
-        <div className='resume'>
-          <a href='/resume.pdf' target='_blank'>
-            Resume
-          </a>
-        </div>
       </div>
       <div
         className='menu'

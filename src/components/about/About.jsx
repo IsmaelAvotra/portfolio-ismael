@@ -16,8 +16,7 @@ const About = () => {
             <a href='https://encgt.ma' target='_blank'>
               National School of Business and Management Tangier
             </a>{' '}
-            in 5th year,finance and accounting sector and i just have the
-            defense left to get my diploma .
+            in 5th year,finance and accounting sector.
           </p>
           <p>
             I'm also a <span>Junior Frontend Web Developer</span> building the

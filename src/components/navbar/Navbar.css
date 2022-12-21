@@ -60,30 +60,6 @@
   color: var(--font-clr);
 }
 
-.navbar .resume {
-  padding: 0.3rem 0.6rem;
-  border: 1px solid var(--second-clr);
-  border-radius: 4px;
-  transition: 0.4s;
-}
-
-.navbar .resume:hover {
-  background-color: var(--second-clr);
-  border: 1px solid var(--font-clr);
-}
-
-.navbar .resume a {
-  color: var(--font-clr);
-  font-family: var(--font-sans);
-  text-decoration: none;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-}
-
-.navbar .resume:hover a {
-  color: #09182e;
-}
-
 .menu {
   display: none;
   cursor: pointer;
@@ -141,12 +117,6 @@
     letter-spacing: 1px;
   }
 
-  .navbar .resume {
-    margin-bottom: 2rem;
-    text-align: center;
-    display: inline-block;
-    width: 45%;
-  }
   .menu {
     display: block;
   }
@@ -167,16 +137,10 @@
   .navbar .links ol li a {
     font-size: 1rem;
   }
-  .navbar .resume {
-    width: 40%;
-  }
 }
 
 @media screen and (max-width: 420px) {
   .navbar .links {
     width: 55%;
-  }
-  .navbar .resume {
-    margin-bottom: 1.5rem;
   }
 }
