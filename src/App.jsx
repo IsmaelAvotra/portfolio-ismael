@@ -3,7 +3,7 @@ import './App.css'
 // import components
 import Navbar from './components/navbar/Navbar'
 import Banner from './components/banner/Banner'
-import About from './components/about/about'
+import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Project from './components/projects/Project'
 import Contact from './components/contact/Contact'
