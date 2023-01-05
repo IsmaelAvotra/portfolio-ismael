@@ -27,7 +27,7 @@ export const projects = [
     desription:
       "It's a site made with React,and uses a jikan API.There is the top anime, the recommendations that change every day, an about page, and you can search for all the anime and see the details.I did the design myself.It's responsive. ",
     github: 'https://github.com/IsmaelAvotra/animesearch-app',
-    demo: 'https://anime-find.netlify.app/',
+    demo: 'https://animesearch-app.vercel.app/',
   },
   {
     id: 2,
