@@ -4,7 +4,7 @@ import gym from '../../assets/gym.png'
 import resto from '../../assets/resto.png'
 import watch from '../../assets/watch.png'
 import home from '../../assets/home.png'
-import bose from '../../assets/bose.png'
+import space from '../../assets/space.png'
 import cocktails from '../../assets/cocktails.png'
 import realestate from '../../assets/realestate.png'
 
@@ -29,15 +29,16 @@ export const projects = [
     github: 'https://github.com/IsmaelAvotra/animesearch-app',
     demo: 'https://animesearch-app.vercel.app/',
   },
+
   {
-    id: 2,
-    image: dentist,
-    name: 'Dentalist',
-    technos: 'Astro JS, React JS',
+    id: 7,
+    image: space,
+    name: 'Space tourism',
+    technos: 'React JS',
     desription:
-      "It's a website made with astro that has different pages. I chose astro for this project because this framework is very fast for content-focused website like our case.The design was on Dribble.",
-    github: 'https://github.com/IsmaelAvotra/dentalist',
-    demo: 'https://dentalist-astro.netlify.app/',
+      "It's a challenge that I saw on Frontend Mentor and I did it with React. It allowed me to improve my integration skills. There was a Figma design to go along with it, so it made my work a little easier. I love doing the Frontend Mentor challenges.",
+    github: 'https://github.com/IsmaelAvotra/space-tourism',
+    demo: 'https://space-tourism-ismaelavotra.vercel.app/',
   },
   {
     id: 3,
@@ -83,14 +84,14 @@ export const projects = [
     demo: 'https://homeland-site.netlify.app/',
   },
   {
-    id: 7,
-    image: bose,
-    name: 'Bose Landingpage',
-    technos: 'React JS',
+    id: 2,
+    image: dentist,
+    name: 'Dentalist',
+    technos: 'Astro JS, React JS',
     desription:
-      "A design I saw in the figma community. It was a good integration exercise. I used AOS an on scroll animation library.It's responsive",
-    github: 'https://github.com/IsmaelAvotra/bose-landingpage',
-    demo: 'https://bose-landingpage.netlify.app/',
+      "It's a website made with astro that has different pages. I chose astro for this project because this framework is very fast for content-focused website like our case.The design was on Dribble.",
+    github: 'https://github.com/IsmaelAvotra/dentalist',
+    demo: 'https://dentalist-astro.netlify.app/',
   },
   {
     id: 8,
