@@ -131,6 +131,7 @@
   .banner {
     padding: 0 1rem;
     height: 80vh;
+    user-select: none;
   }
   .banner .text-h1 {
     margin-left: 1rem;
