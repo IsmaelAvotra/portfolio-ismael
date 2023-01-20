@@ -1,7 +1,6 @@
 .about {
   padding: 1rem 3rem;
   margin-bottom: 5rem;
-  height: 50rem;
 }
 
 /* ============description ============ */
@@ -9,16 +8,15 @@
 .about .description {
   display: flex;
   align-items: center;
-  padding-top: 3rem;
-  gap: 2rem;
-  margin-top: 4rem;
+  gap: 5rem;
+  margin-top: 6rem;
 }
 
 .about .description .left {
   flex: 1;
   color: var(--font-clr);
   font-family: var(--font-sans);
-  padding-left: 2rem;
+  padding: 0rem;
 }
 
 .description .left p {
@@ -40,14 +38,31 @@
 
 .about .description .right {
   flex: 1;
-  padding-left: 4rem;
+}
+
+.right .image {
+  width: 30rem;
+  height: 35rem;
+  position: relative;
+}
+
+.right .image::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 2rem;
+  bottom: 1.5rem;
+  background-color: #09182e;
+  border: 1px solid var(--second-clr);
+  z-index: -1;
+  border-radius: 1rem;
 }
 
 .about .right img {
-  width: 30rem;
-  height: 33rem;
-  border-radius: 50%;
-  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
 }
 
 /* ==========media queries================== */
@@ -58,7 +73,7 @@
   }
 
   .about .description {
-    gap: 1rem;
+    gap: 2rem;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -68,6 +83,11 @@
   .about .description {
     flex-direction: column-reverse;
   }
+
+  .description .right {
+    margin-bottom: 2rem;
+  }
+
   .description .left p {
     padding-right: 3rem;
   }
@@ -84,13 +104,15 @@
   }
 }
 
-@media screen and (max-width: 550px) {
-  .about {
-    padding: 1rem 0.5rem;
+@media screen and (max-width: 600px) {
+  .about .right .image {
+    width: 22rem;
+    height: 27rem;
   }
-  .about .right img {
-    width: 26rem;
-    height: 28rem;
+
+  .right .image::after {
+    left: 1.5rem;
+    bottom: 1rem;
   }
 
   .about .description .left {
@@ -115,14 +137,22 @@
   }
 }
 
-@media screen and (max-width: 420px) {
-  .about .right img {
-    width: 100%;
-    height: 18rem;
+@media screen and (max-width: 450px) {
+  .about .description {
+    margin-top: 2rem;
   }
 
-  .about .description {
-    margin-top: 0;
+  .about .right {
+    margin-bottom: 1rem;
+  }
+
+  .about .right .image {
+    width: 18rem;
+    height: 22rem;
+  }
+
+  .right .image::after {
+    display: none;
   }
 
   .description .left p,

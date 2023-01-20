@@ -4,7 +4,7 @@ import './Project.css'
 import { projects } from './data'
 
 import { AiFillGithub } from 'react-icons/ai'
-import { SiNetlify } from 'react-icons/si'
+import { SiNetlify, SiVercel } from 'react-icons/si'
 
 const Project = () => {
   return (
@@ -14,7 +14,8 @@ const Project = () => {
       </h2>
       <div className='content'>
         {projects.map((project) => {
-          const { id, image, name, technos, desription, github, demo } = project
+          const { id, image, name, technos, desription, github, demo, icon } =
+            project
           return (
             <article className='project' key={id}>
               <img src={image} alt={name} />
@@ -39,7 +40,7 @@ const Project = () => {
                 </div>
                 <div className='demo'>
                   <a href={demo} target='_blank'>
-                    <SiNetlify />
+                    {icon === 'vercel' ? <SiVercel /> : <SiNetlify />}
                     <p> Demo</p>
                   </a>
                 </div>

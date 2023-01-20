@@ -1,6 +1,6 @@
 .navbar {
   background-color: #09182e;
-  padding: 0.5rem 3rem;
+  padding: 1rem 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,6 +13,7 @@
   text-decoration: none;
   letter-spacing: 1px;
   color: var(--font-clr);
+  font-family: 'Lora', serif;
 }
 
 .navbar .logo h1 {
@@ -21,7 +22,7 @@
 }
 
 .navbar .logo p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .navbar .links {
@@ -39,6 +40,7 @@
 
 .navbar .links ol a {
   color: var(--font-clr);
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: var(--font-mono);
   text-transform: capitalize;
@@ -52,7 +54,7 @@
 .navbar .links ol a span {
   color: var(--second-clr);
   margin-right: 0.2rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   transition: 0.4s;
 }
 

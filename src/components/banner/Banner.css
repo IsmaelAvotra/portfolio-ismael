@@ -72,6 +72,7 @@
   right: 3rem;
   bottom: 5rem;
   position: fixed;
+  z-index: 3;
 }
 
 .banner .socials::after {
@@ -162,7 +163,6 @@
 
 @media screen and (max-width: 450px) {
   .banner {
-    padding: 0 1rem;
     padding-left: 0.5rem;
     height: 70vh;
   }
@@ -175,5 +175,21 @@
   .banner .socials {
     bottom: 3rem;
     right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .banner span {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner .socials {
+    display: none;
+  }
+
+  .banner span {
+    font-size: 1.4rem;
   }
 }

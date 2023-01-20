@@ -30,10 +30,11 @@ const Contact = () => {
           <div className='left'>
             <h3>Contact Me</h3>
             <p className='text'>
-              Do not hesitate to contact me if you have any work opportunities,
-              questions or recommendations, I would really appreciate it. You
-              can contact me with the means below,by Linkedin,Twitter,Instagram
-              or by using the form. I will answer you as soon as possible.
+              Please don't hesitate to reach out to me if you have any job
+              opportunities, questions, or suggestions. I would be more than
+              happy to hear from you. You can contact me through the following
+              means: LinkedIn, Twitter, Instagram or by using the contact form
+              on my website. I will respond to you as soon as possible.
             </p>
             <div className='email div'>
               <MdMarkEmailUnread />

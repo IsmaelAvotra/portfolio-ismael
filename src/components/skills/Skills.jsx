@@ -44,13 +44,13 @@ const Skills = () => {
           <div className='framework'>
             <h4>Framework :</h4>
             <li>
-              <span>-</span> TAILWIND <SiTailwindcss />
-            </li>
-            <li>
               <span>-</span> REACT <SiReact />
             </li>
             <li>
               <span>-</span> Next <SiNextdotjs />
+            </li>
+            <li>
+              <span>-</span> TAILWIND <SiTailwindcss />
             </li>
             <li>
               <span>-</span> ASTRO JS
@@ -91,29 +91,35 @@ const Skills = () => {
               <span>-</span>
               Autonomy :
               <p>
-                Team work is the basis for the success of a project, but each
-                member must also be autonomous so as not to delay the progress
-                of the project. As I am an autodidact, autonomy is an obligation
-                for me.
+                Teamwork is the foundation for the success of any project, but
+                each member must also be self-sufficient to avoid delaying
+                progress. As an autodidact, self-sufficiency is a must for me. I
+                understand the importance of being able to work independently as
+                well as being a valuable team member, contributing to the
+                success of the project.
               </p>
             </li>
             <li>
               <span>-</span>
               Team Work :
               <p>
-                Being a student of the school of management, I am aware of the
-                importance of teamwork and I had the opportunity to work in a
-                team during my internship.
+                As a student in the school of management, I am well-versed in
+                the importance of teamwork and have had the opportunity to work
+                in a team environment during my internship. I understand the
+                value of collaboration and communication in achieving success,
+                and I am confident in my ability to effectively contribute to
+                any team I am a part of.
               </p>
             </li>
             <li>
               <span>-</span>
               Creativity :
               <p>
-                With web development, I feel creative. I can draw inspiration
-                from the work of other creators for my designs and
-                functionality.I always have to use my creativity to find the
-                best way to solve a problem or for the user experience.
+                Web development allows me to tap into my creativity. I am
+                inspired by the work of other developers and designers, and use
+                that inspiration in my own designs and functionality. I am
+                constantly using my imagination to find new and innovative
+                solutions to problems and enhance the user experience.
               </p>
             </li>
           </div>
@@ -123,21 +129,24 @@ const Skills = () => {
               <span>-</span>
               Adaptability :
               <p>
-                In web development, you need a good ability to adapt since
-                technologies are constantly evolving. I have a solid foundation
-                in Javascript I don't mind learning a new framework even though
-                I love React and Next.
+                In web development, adaptability is key as technologies are
+                constantly evolving. I have a strong foundation in Javascript
+                and am open to learning new frameworks, even though I
+                particularly enjoy using React and Next. I understand the
+                importance of staying current and am always eager to learn and
+                improve my skills.
               </p>
             </li>
             <li>
               <span>-</span>
               Problem-Solving Attitude :
               <p>
-                Being self-taught I have to find a solution if I had a problem
-                by doing research or asking questions in a group of developers
-                or watching videos on youtube. I have this ability to solve
-                problems by myself but I also do not hesitate to ask for help
-                from more experienced people
+                As a self-taught developer, I am accustomed to finding solutions
+                to problems through research, asking for help from other
+                developers, or watching educational videos on YouTube. I possess
+                a strong problem-solving ability and the ability to be
+                self-sufficient, but I do not hesitate to reach out to more
+                experienced individuals for guidance when needed.
               </p>
             </li>
           </div>

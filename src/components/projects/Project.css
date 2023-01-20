@@ -1,10 +1,11 @@
 .projects {
   padding: 1rem 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 
 .projects img {
   width: 100%;
+  border-radius: 0.25rem 0.25rem 0 0;
 }
 
 .projects .content {
@@ -92,8 +93,14 @@
 
 @media screen and (max-width: 420px) {
   .projects {
-    padding: 1rem 0.5rem;
+    padding: 1rem;
   }
+
+  .projects .content {
+    margin-top: 2rem;
+    padding: 0;
+  }
+
   .content .project .info p,
   .project .links p {
     font-size: 0.8rem;
